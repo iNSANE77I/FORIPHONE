@@ -1,0 +1,300 @@
+.content {
+    width: 100%;
+    margin: 20px auto;
+    float: left;
+    height: 100%;
+  }
+  .red {
+      background-color:  firebrick;
+  }
+  .green {
+      background-color:  rgb(34, 178, 34);
+  }
+  .blue {
+      background-color:  rgb(105, 218, 247);
+  }
+  .yellow {
+      background-color:  rgb(245, 248, 59);
+  }
+
+  .square {
+      width: 100px;
+      height: 100px;
+      margin: 0 10px 10px 0;
+       float: left;
+  }
+  
+  .logo{
+
+    width: 200px;
+height: 50px;
+background-color: brown;
+float: left;
+  }
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #151242; }
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 16px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #111111;
+}
+
+h3 {
+font-weight: normal;
+}
+
+
+a{
+font-weight: 700;
+
+}
+
+
+.block-image {
+    
+    width: 100%;
+    height: 628px;
+    background-image: url("rog-strix-asus-rog-2021-wallpaper-3840x2160_54.jpg");
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: 100%; }
+    
+
+   .about-h2{
+    color: #36a0bd;
+    text-align: center;}
+
+    .about2-h2{
+        color: #36a0bd;
+        text-align: center;}
+   
+    
+    .after-h2{
+        color: #36a0bd;
+        text-align: center;}
+
+        .before-h2{
+            color: #36a0bd;
+            text-align: center;}
+
+            .later-h2{
+                color: #36a0bd;
+                text-align: center;}
+          
+             
+
+            .square-red {animation-timing-function: linear;}
+            .square-green {animation-timing-function: ease;}
+            .square-blue {animation-timing-function: ease-in;}
+            .square-yellow {animation-timing-function: ease-out;}
+            .div5 {animation-timing-function: ease-in-out;}
+
+            @keyframes mymove {
+                from {left: px;}
+                t {left: 300px;} } 
+
+
+    /* .p {
+            border-width: 15px;
+            border-color: rgb(25, 0, 255);
+            border-radius: 0px;
+            border-style: solid; }    */
+       
+       
+        @keyframes example {
+        0% {color: rgb(102, 255, 0); background-color: black;}
+        25% {color: rgb(0, 4, 255); background-color: brown;} 
+        50% {color: rgb(0, 255, 166); background-color: cadetblue;}
+        75% {color: rgb(19, 7, 255); background-color: burlywood;}
+        100% {color: rgb(128, 0, 92);}}
+
+        .header-fixed {
+            position: fixed;
+            width: 100%;
+            z-index: 1;
+            margin-top: -8px; }
+       
+        .sova {
+            border-radius: 50px;
+            width: 100%;
+            height: 600px;
+            background-image: url(528812.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100%; }
+        .republic {
+            width: 100%;
+            height: 600px;
+            background-image: url(1513882457293.webp);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100%; 
+            position: sticky;}
+
+        /* p {
+                position: relative;
+                left: 0px;
+                border: 2px solid blue;    } */
+
+        .relative {
+                    position: relative;
+                    width: 400px;
+                    height: 200px;
+                    border: 3px solid #73AD21;
+                    font-size: 5px; }
+
+        .absolute {
+                        position: absolute;
+                        top: 80px;
+                        right: 0;
+                        width: 200px;
+                        height: 100px;
+                        border: 3px solid #73AD21; } 
+
+                        /* .sova {
+                            top: 0;
+                            position: sticky; } */
+                       
+                            /* div {
+                                background-color: red;
+                                width: 100px;
+                                height: 100px;
+                                border: 1px solid black;
+                                overflow: auto; } */
+        .primer {
+            background-color: #73AD21;
+            font-size: 25px; }
+
+        /* body {
+                background-color: darkslategray;    } */
+        @media only screen and (min-width: 374px) and (max-width: 600px) {
+        body {
+                background-color: rgb(90, 90, 90);   }  
+        .logo {
+                    width: 75px;
+                    height: 50px;
+                    background-color: rgb(73, 42, 165);
+                    float: left;   }
+                li a {
+                    display: block;
+                    color: white;
+                    text-align: center;
+                    padding: 5px;
+                    text-decoration: none;   }
+                .block-image {
+                    width: 100%;
+                    height: 258px;
+                    background-image: url(rog-strix-asus-rog-2021-wallpaper-3840x2160_54.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100%;  }
+                .sova {
+                        border-radius: 0;
+                        width: 100%;
+                        height: 211px;
+                        background-image: url(528812.jpg);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: 100%;   }
+                .republic {
+                            width: 100%;
+                            height: 212px;
+                            background-image: url(1513882457293.webp);
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: 100%;
+                            position: sticky;   }
+                .relative {
+                                position: relative;
+                                width: 370px;
+                                height: 200px;
+                                border: 3px solid #73AD21;
+                                font-size: 5px;    }
+        .logo {
+            width: 74px;
+            height: 28px;
+            background-color: #36a0bd;
+            float: left;    }      
+
+        .body {
+            width: 300px;
+            height: 400px;
+            background-color: #36a0bd;  }                
+   
+              
+      
+        .after-p{
+
+            font-size: inherit;    }
+        #after{
+
+            font-size: 30px;    }
+        .default {
+        white-space: nowrap;
+        width: 50px;
+        overflow: hidden;
+        text-overflow: clip;
+        border: 1px solid #000000;   }     
+
+       .ellipsis {
+        white-space: nowrap;
+        width: 50px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        border: 1px solid #000000;   } 
+       
+       .flex-container   {
+        display: flex;
+        background-color: black;   }
+       .flex-container > div {
+        background-color: white;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;     }
+
+
+        .grid {
+            grid-column-start: 1;    }
+
+            body{
+                background-attachment: fixed;
+                
+                  /* background-image: url(otkrit-ka.ru_fon-dlja-sajta-krasivye-kartinki-1.jpg); */
+                  background-size: cover;
+                /* color: #fff; */ }
+              .myblock {
+                animation: myshadow 5s infinite;
+              }
+              @keyframes myshadow {
+                50% {text-shadow: 2px 2px 2px rgb(0, 229, 229);}
+              }}
+              .dropdowns {
+                position: relative;
+                display: inline-block;
+                background-color: #36a0bd;  }
+        .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow:0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                padding: 12px 16px; 
+                z-index: 1; }
+        .dropdowns:hover .dropdown-content {
+                display: block;    }  
